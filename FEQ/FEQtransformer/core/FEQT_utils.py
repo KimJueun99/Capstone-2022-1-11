@@ -2577,8 +2577,7 @@ class SeqSelfAttention(keras.layers.Layer):
 def _block_BiLSTM(filters, drop_rate, padding, inpR):
     'Returns LSTM residual block'    
     prev = inpR
-    x_rnn = Bidirectional(GRU(filters, return_sequences=True, dropout=drop_rate, recurrent_dropout=drop_rate))(prev)
-    #x_rnn = Bidirectional(LSTM(filters, return_sequences=True, dropout=drop_rate, recurrent_dropout=drop_rate))(prev)
+    x_rnn = Bidirectional(LSTM(filters, return_sequences=True, dropout=drop_rate, recurrent_dropout=drop_rate))(prev)
     NiN = Conv1D(filters, 1, padding = padding)(x_rnn)     
     res_out = BatchNormalization()(NiN)
     return res_out
