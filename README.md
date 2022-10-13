@@ -15,7 +15,8 @@
 ## 3. 구성도
 우리가 개발한 모델의 구조는 다음과 같다.
 
-![image](https://user-images.githubusercontent.com/84946412/195485886-0ffa46ea-f2ab-4328-8ee0-b67f93de88a0.png) <br>
+![LSTM,GRU](https://user-images.githubusercontent.com/84946412/195488921-7593bf3e-1af7-4b81-a4c6-97ad30ad83ac.png)
+<br>
 
 ### 각 구조의 역할
 
@@ -34,3 +35,18 @@
 ## 4. 소개 및 시연 영상
 
 ## 5. 설치 및 사용법
+
+* Links
+  * STEAD - 학습에 사용된 DataSet
+    * https://github.com/smousavi05/STEAD
+  * EQTransformer - 설치법 참고
+    * https://github.com/smousavi05/EQTransformer
+  * LEQNet - EQTransformer 경량화 모델
+    * https://github.com/LEQNet/LEQNet
+
+* 실행 환경
+'python==3.8.10'<br>
+'tensorflow==2.2.0'  # tensorflow <2.7.0 needs numpy <1.20.0<br>
+'tensorflow-estimator==2.0.0'<br>
+'keras==2.3.1'<br>
+'scipy==1.4.1'<br>
