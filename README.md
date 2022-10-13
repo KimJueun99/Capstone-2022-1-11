@@ -46,7 +46,7 @@
 
 * 실행 환경<br>
 'python==3.8.10'<br>
-'tensorflow==2.2.0'         # tensorflow <2.7.0 needs numpy <1.20.0<br>
+'tensorflow==2.2.0'   &nbsp; # tensorflow <2.7.0 needs numpy <1.20.0<br>
 'tensorflow-estimator==2.0.0'<br>
 'keras==2.3.1'<br>
 'scipy==1.4.1'<br>
