@@ -20,11 +20,11 @@
 
 ### 각 구조의 역할
 
-* Encoder 데이터를 압축해서 표현<br>
-* CNN 데이터의 특징을 학습<br>
-* LSTM 시계열 데이터의 특징을 학습<br>
-* Transformer 여러개의 Encoder와 Decoder를 연결<br>
-* Decoder 압축된 데이터를 다른 시계열 데이터로 변환<br>
+* Encoder : 데이터를 압축해서 표현<br>
+* CNN : 데이터의 특징을 학습<br>
+* LSTM : 시계열 데이터의 특징을 학습<br>
+* Transformer : 여러개의 Encoder와 Decoder를 연결<br>
+* Decoder : 압축된 데이터를 다른 시계열 데이터로 변환<br>
 
 ### 기존 모델과 차이점
 
@@ -44,7 +44,7 @@
   * LEQNet - EQTransformer 경량화 모델
     * https://github.com/LEQNet/LEQNet
 
-* 실행 환경
+* 실행 환경<br>
 'python==3.8.10'<br>
 'tensorflow==2.2.0'  # tensorflow <2.7.0 needs numpy <1.20.0<br>
 'tensorflow-estimator==2.0.0'<br>
