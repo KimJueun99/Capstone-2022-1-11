@@ -34,6 +34,7 @@
 
 ## 4. 소개 및 시연 영상
 
+[![소개영상](http://img.youtube.com/vi/zehnLj5UCd8/0.jpg)](https://youtu.be/zehnLj5UCd8)    
 ## 5. 설치 및 사용법
 
 * Links
